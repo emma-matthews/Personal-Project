@@ -9,8 +9,8 @@ const App = () => {
   return (
     <Router>
       <>
-        <Link to={`/`}>Homepage</Link>
-        <div style={{ display: 'flex' }}>
+        <div className='main'>
+          <Link to={`/`}>Homepage</Link>
           <Route exact path="/" component={Home} />
 
         </div>
